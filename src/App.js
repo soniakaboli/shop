@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Link, Outlet } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="navbar-custom d-flex justify-content-around flex-wrap w-100 text-center pt-3 pb-1">
+        <Link to="/" className="flex-fill text-decoration-none text-dark">صفحه اصلی</Link>
+        <Link to="cosmetics" className="flex-fill text-decoration-none text-dark">لوازم ارایشی</Link>
+        <Link to="cloth" className="flex-fill text-decoration-none text-dark">عطرا و دکلن</Link>
+        <Link to="shoses" className="flex-fill text-decoration-none text-dark">کیف و کفش</Link>
+        <Link to="about" className="flex-fill text-decoration-none text-dark">درباره ما</Link>
+      </div>
+        <hr />
+        <div>
+          <Link to="login" className="btn btn-outline-primary mx-5">ایجاد حساب کاربری / ورود</Link>
+        </div>
+      <Outlet />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+const products =[
+    {id:1 , name:"رژ لب" , category:"cosmetic" , price:7200000 , image: "https://shop-beauty.dior.com.kw/cdn/shop/products/Y0308009_C030800300_E01_GHC_300x300@2x.jpg?v=1660551163"}
+    , {id:3 , name:"لیپ گلاس" , category:"cosmetic" , price:4500000 , image:"https://www.sephora.com/productimages/sku/s1925965-main-zoom.jpg?imwidth=315"}
+    , {id:4 , name:"کانسیلر" , category:"cosmetic" , price:9650000 , image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.narscosmetics.com%2FUSA%2Fradiant-creamy-concealer%2F999NACRCC0001.html&psig=AOvVaw3UporW4Gwd01ZCMW2uRvi1&ust=1754847607332000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiv5MGl_o4DFQAAAAAdAAAAABAE"}
+    , {id:5 , name:"رژ گونه" , category:"cosmetic" , price:6400000 , image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dior.com%2Fen_ca%2Fbeauty%2Fproducts%2Frosy-glow-Y0373000.html&psig=AOvVaw0xmQ-GLhSrd9J16B8BrhdC&ust=1754847665713000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJDkyt2l_o4DFQAAAAAdAAAAABAU"}
+    , {id:2 , name:"کیف دستی" , category:"bagshose" , price:9900000 , image:"https://coach.scene7.com/is/image/Coach/cv933_imxaq_a0?$imageRec$"}
+   , {id:6 , name:"کفش کتونی" , category:"bagshose" , price:14540000 , image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.louisvuitton.com%2Feng-nl%2Fproducts%2Flv-trainers-nvprod3150035v%2F1A9JGN&psig=AOvVaw2xZdqsfphbCT-a1RaVZv0h&ust=1754847735492000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjUv_-l_o4DFQAAAAAdAAAAABAE"}
+   , {id:7 , name:"کیف یزرگ" , category:"bagshose" , price:17000000 , image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Feu.louisvuitton.com%2Feng-e1%2Fproducts%2Fneverfull-gm-monogram-nvprod5350104v%2FM46978&psig=AOvVaw0jxxFiZoYmTWLs04khEi7X&ust=1754847768420000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLinto6m_o4DFQAAAAAdAAAAABAE"}
+   , {id:8 , name:"صندل تابستانی" , category:"bagshose" , price:45840000 , image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hermes.com%2Fnl%2Fen%2Fproduct%2Foran-sandal-H221208Zv5T350%2F&psig=AOvVaw1_zXlZu6rpv3ZfQTpeyD0g&ust=1754847794018000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJjAnZ6m_o4DFQAAAAAdAAAAABAK"}
+] ;
+export default products;
