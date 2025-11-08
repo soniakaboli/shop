@@ -10,7 +10,7 @@ import Shoses from "./Shoses";
 import About from "./About";
 import Cosmetic from "./Cosmetic";
 import Login from "./Login";
-
+import i18n from "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

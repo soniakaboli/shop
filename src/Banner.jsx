@@ -19,7 +19,7 @@ const Banner = () => {
             }}
           />
 
-            <img src="https://ca.louisvuitton.com/content/dam/lv/online/picture/us/homepage/2025/PUSH2_W_MNG_BAGS_US_DI3.jpg?wid=2400" alt="" 
+            <img src="https://www.arvindfashions.com/wp-content/uploads/2024/03/Campaign-1-1.png" 
             style={{
               width: "100%",
               height: "400px",

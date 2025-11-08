@@ -1,0 +1,10 @@
+{
+    "form":{
+        "title":"Sign in",
+        "username":"User Name",
+        "email": "Email",
+        "password": "PassWord",
+        "enter":"Sign in"
+        
+    }
+}
