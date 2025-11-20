@@ -1,8 +1,9 @@
 import React from 'react'
+import Productlist from './ProductList'
 
 const Cloth = () => {
   return (
-    <div>Cloth</div>
+    <Productlist category={"cloth"}/>
   )
 }
 

@@ -11,6 +11,10 @@ import About from "./About";
 import Cosmetic from "./Cosmetic";
 import Login from "./Login";
 import i18n from "./i18n";
+import Cart from "./Cart";
+import "./index.css";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +28,7 @@ root.render(
           <Route path="shoses" element={<Shoses/>}/>
           <Route path="about" element={<About/>}/>
         <Route path="login" element={<Login/>}/>
+        <Route path="cart" element={<Cart />} />
         </Route>
         
       </Routes>
