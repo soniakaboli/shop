@@ -50,7 +50,7 @@ function ProdCard({ product }) {
         <h5 className="card-title">{product.name}</h5>
         <p className="price">{product.price.toLocaleString()} تومان</p>
 
-        <button className="btn add-btn">
+        <button  onClick={() => addToCart(product)} className="btn add-btn">
           🛒 افزودن
         </button>
       </div>
